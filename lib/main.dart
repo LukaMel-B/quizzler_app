@@ -37,7 +37,7 @@ int mark =0;
       if (qBrain.isFinished() == true) {
         Alert(
           context: context,
-          title: 'Game End!',
+          title: 'Game End!!',
           desc: 'Your score is $mark',
         ).show();
 
